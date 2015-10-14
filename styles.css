@@ -3,13 +3,17 @@ body, html{
 }
 body{
   margin: 0px;
+  background-image: url("http://2.bp.blogspot.com/_kxm-Zwd9Rs4/S-saU2R9_7I/AAAAAAAAAsI/jDPTxPw2AO4/s1600/after2.JPG");
+  background-size:   cover;                      /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
   background-color:#444;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineUpButton{
   padding:5px 12px;
   float:right;
 }
@@ -22,6 +26,21 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+.zangiefDancer{
+  border:10px solid blue;
+  border-radius:5px;
+  position:absolute;
+  background-image: url("http://gph.is/1LcIqhh");
+  background-size:   cover;                      /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+.bouncyDancer{
+  border:10px solid yellow;
   border-radius:10px;
   position:absolute;
 }
